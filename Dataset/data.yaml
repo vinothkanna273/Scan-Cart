@@ -1,0 +1,14 @@
+path: ../drive/MyDrive/lays
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['chile_limon', 'classicsalted', 'cream_and_onion', 'hot_and_sweet', 'indian_magic_masala', 'max_chili', 'maxx_sizzling_barbeque', 'tangy_tomato']
+
+roboflow:
+  workspace: new-workspace-bgkzo
+  project: object-eidim
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-bgkzo/object-eidim/dataset/2
